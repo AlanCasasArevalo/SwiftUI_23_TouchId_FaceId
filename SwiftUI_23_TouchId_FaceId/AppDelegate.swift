@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  SwiftUI_23_TouchId_FaceId
-//
-//  Created by Everis on 05/09/2020.
-//  Copyright © 2020 Alan. All rights reserved.
-//
 
 import UIKit
 
