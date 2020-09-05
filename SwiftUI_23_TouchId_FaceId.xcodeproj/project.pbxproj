@@ -13,6 +13,7 @@
 		51317DF92503712B0071C7CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51317DF82503712B0071C7CC /* Assets.xcassets */; };
 		51317DFC2503712B0071C7CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51317DFB2503712B0071C7CC /* Preview Assets.xcassets */; };
 		51317DFF2503712B0071C7CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51317DFD2503712B0071C7CC /* LaunchScreen.storyboard */; };
+		51317E07250373680071C7CC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51317E06250373680071C7CC /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		51317DFB2503712B0071C7CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51317DFE2503712B0071C7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51317E002503712B0071C7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51317E06250373680071C7CC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				51317DF2250371290071C7CC /* AppDelegate.swift */,
 				51317DF4250371290071C7CC /* SceneDelegate.swift */,
 				51317DF6250371290071C7CC /* ContentView.swift */,
+				51317E06250373680071C7CC /* HomeView.swift */,
 				51317DF82503712B0071C7CC /* Assets.xcassets */,
 				51317DFD2503712B0071C7CC /* LaunchScreen.storyboard */,
 				51317E002503712B0071C7CC /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51317DF3250371290071C7CC /* AppDelegate.swift in Sources */,
+				51317E07250373680071C7CC /* HomeView.swift in Sources */,
 				51317DF5250371290071C7CC /* SceneDelegate.swift in Sources */,
 				51317DF7250371290071C7CC /* ContentView.swift in Sources */,
 			);
