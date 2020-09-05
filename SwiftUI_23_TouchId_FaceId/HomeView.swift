@@ -3,7 +3,20 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Hello, HomeView")
+        NavigationView{
+        Text("Pulsa para acceder al menu")
+            .contextMenu {
+                VStack {
+                    NavigationLink(destination: CreateQR()) {
+                        Text("Crear QR")
+                    }
+                    NavigationLink(destination: ReadQR()) {
+                        Text("Leer QR")
+                    }
+                }
+            .navigationBarTitle("Lector QR")
+            }
+        }
     }
 }
 
