@@ -56,5 +56,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Necesitamos tu faceId</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Escanear QR</string>
 </dict>
 </plist>
